@@ -1,5 +1,5 @@
 import Route from '@ioc:Adonis/Core/Route'
 
-Route.get('/', 'AuthController.verify').as('home.index')
+Route.get('/', 'VeiculosController.form').as('gps.form')
 
 Route.post('/gps', 'VeiculosController.show').as('gps.show')
